@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/WhatsApp\ Image\ 2024-06-24\ at\ 9.30.39\ PM.jpeg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    background-image: url(images/WhatsApp\ Image\ 2024-06-24\ at\ 9.30.39\ PM.jpeg);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: #333;
+    transition: 0.3s;
+}
+
+/* Main Content */
+.section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about {
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: #076374;
+    
+}
+
+
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(189, 10, 10);
+}
+
+.menu-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    flex: 1 1 calc(25% - 2rem);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #f37506;
+}
+
+.contact {
+    background-color: #076374;
+    display: flex;
+    gap: 40px;
+    border-radius: 13px;
+    margin-bottom: 2rem;
+
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+#menu-item1{
+    background-image: url(images/WhatsApp\ Image\ 2024-06-24\ at\ 9.13.29\ PM.jpeg);
+    background-size: cover;
+}
+#menu-item2{
+    background-image: url(images/WhatsApp\ Image\ 2024-06-24\ at\ 9.13.22\ PM.jpeg);
+    background-size: cover;
+}
+#menu-item3{
+    background-image: url(images/WhatsApp\ Image\ 2024-06-24\ at\ 9.13.24\ PM.jpeg);
+    background-size: cover;
+
+}
+#menu-item4{
+    background-image: url(images/WhatsApp\ Image\ 2024-06-24\ at\ 9.13.21\ PM.jpeg);
+    background-size: cover;
+}
+/*#about{
+    background-image: url(images/top-view-sliced-bell-peppers-different-colored-salad-inside-plate-dark-background.jpg);
+    background-size: cover;
+}
